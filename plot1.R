@@ -26,7 +26,7 @@ png(
     height = 480,
     units = "px",
     pointsize = 12,
-    bg = "white"
+    bg = "transparent"
 )
 
 ## plot the histogram for plot 1 in the png file
