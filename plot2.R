@@ -17,9 +17,6 @@ feb1to2$Time <- strptime(paste(feb1to2$Date,feb1to2$Time), "%Y-%d-%m %H:%M:%OS")
 ## convert global active power column from factors to numbers
 gap <- as.numeric(as.character(feb1to2$Global_active_power))
 
-## flatten the list of lists to a list of numerics
-gap <- unlist(gap)
-
 ## tell R that I want the plot to be generated in a png file
 png(
     filename = "plot2.png",
